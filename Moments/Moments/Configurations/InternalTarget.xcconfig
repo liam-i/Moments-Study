@@ -1,0 +1,16 @@
+//
+//  InternalTarget.xcconfig
+//  Moments
+//
+//  Created by yalla012 on 2021/4/1.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Pods/Target Support Files/Pods-Moments/Pods-Moments.internal.xcconfig"
+#include "BaseTarget.xcconfig"
+
+PRODUCT_BUNDLE_NAME = $(inherited) Fat
+PRODUCT_BUNDLE_IDENTIFIER = com.yaowang.moments.internal
+//FIREBASE_CONFIG_FILENAME = GoogleService-Info-Internal

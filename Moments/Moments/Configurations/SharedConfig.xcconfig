@@ -1,0 +1,29 @@
+//
+//  SharedConfig.xcconfig
+//  Moments
+//
+//  Created by yalla012 on 2021/4/1.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+/// - Note: BaseConfigurations
+
+API_BASE_URL = momentsapi.yaowang.com
+
+
+/// - Note: CompilerAndLanguage
+
+// Apple LLVM 9.0 - Language - Modules
+CLANG_ENABLE_MODULES = YES
+SWIFT_VERSION = 5.0
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+
+
+/// - Note: SDKAndDeviceSupport
+
+// Deployment
+TARGETED_DEVICE_FAMILY = 1
+IPHONEOS_DEPLOYMENT_TARGET = 14.0
